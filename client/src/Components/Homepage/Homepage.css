@@ -1,0 +1,493 @@
+
+
+
+/* Mobile view */
+@media (max-width: 543px) {
+
+
+#homepagebody{
+margin: 0px;
+padding: 0px;
+min-height: 100%;
+
+background-color: rgba(15, 144, 180, 0.669);
+}
+
+
+#mainbtnbox{
+margin: 0px;
+padding:  20px 0px 10px;
+height: 200px;
+width: 100%;
+position: absolute;
+top: 60%;
+
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+z-index: 4;
+
+
+}
+
+#mainbtnbox button{
+margin: 10px auto;
+padding:  15px ;
+width: 43vw;
+
+justify-content: center;
+align-items: center;
+
+
+font-family: 'segoe UI';
+font-weight: lighter;
+font-size: 16px;
+color: white;
+
+
+display: flex;
+background-color: rgba(12, 216, 243, 0.179) ;
+backdrop-filter: blur(5px);
+border-radius: 30px;
+border:0px;
+outline: none;
+}
+
+#mainbtnbox button:hover{ 
+
+background-color: rgba(11, 230, 241, 0.452) ;
+
+}
+
+
+.contentbox{
+margin: 140px 0px 20px;
+padding: 5px;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap; 
+}
+
+.addsCard{
+margin: 10px auto;
+padding: 0px;
+height: auto;
+width: auto;
+
+display: flex;
+}
+
+.addsCard img{
+margin: 0px;
+padding: 0px;
+height: 430px;
+width: 330px;
+
+object-fit: cover;
+object-position: center;
+border-radius: 6px;
+}
+
+
+#calltoactionbox{
+margin: 26px 0px ;
+padding: 0px;
+
+height: 75vh;
+width: 100%;
+
+background-image: url(../photos/2005054.jpg);
+
+background-position: center;
+background-size: cover; 
+}
+
+#calltoactionboxkground{
+margin: auto;
+padding: 5px;
+max-width: 100vw;
+height: 100%;
+
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+
+align-items: center;
+justify-content: center;
+
+backdrop-filter: blur(8px);
+background-color: rgba(53, 71, 150, 0.478);
+}
+
+#calltoactionbox .calltoaction{
+margin: 7px auto ;
+padding: 4px;
+
+height: 160px;
+width: 120px;
+
+display: flex;
+flex-direction: column;
+
+align-items: center;
+justify-content: center;
+border-radius: 3px;
+background-color: rgba(255, 255, 255, 0.432);
+backdrop-filter: blur(7px);
+
+}
+
+.calltoaction p{
+margin: 0px;
+padding: 10px 1px 8px;
+
+font-size: 16px;
+font-family: 'segoe UI';
+/* font-weight: lighter;*/
+line-height: 25px;
+text-align: center;
+}
+
+
+#prompbox1{
+margin: 80px 0px;
+padding: 0px;
+width: 100%;
+height: 120px;
+
+
+background-image: url(https://d2gg9evh47fn9z.cloudfront.net/1600px_COLOURBOX7141781.jpg);
+background-position: center;
+background-size: cover;
+}
+
+
+.boxbackground{
+margin: 0px;
+padding: 0px;
+width: 100%;
+min-height: 100%;
+
+display: flex;
+backdrop-filter: blur(6px);
+background-color: rgba(11, 126, 203, 0.141);
+
+}
+
+
+#prompbox1 .boxbackground p{
+margin: auto;
+padding: 10px;
+
+font-size: 28px;
+/* font-weight: lighter; */
+font-family:'segoe UI';
+color: rgb(11, 3, 44); 
+display: flex;
+
+justify-self: center;
+}
+
+#promotbtnbox{
+margin: 20px 0px;
+padding: 20px;
+
+width: 100%;
+
+display: flex; 
+}
+
+.promotbtn{
+margin: auto;
+
+padding: 10px 5px 15px;
+width: 73vw;
+background-color: rgb(0, 8, 255);
+
+font-size: 21px;
+font-weight: lighter;
+font-family:'segoe UI';
+color: rgb(239, 215, 242);
+
+outline: none;
+border: 0px;
+
+border-radius: 6px;
+}
+
+
+
+}
+/* END OF MOBILE STYLING */
+
+/* for tablet view */
+@media (min-width: 544px) {
+
+#homepagebody{
+margin: 0px;
+padding: 0px;
+background-color: rgb(68, 44, 220);
+min-height: 100%;
+
+}
+
+#mainbtnbox{
+margin: 0px;
+padding:  20px 0px 10px;
+height: 200px;
+width: 100%;
+position: absolute;
+top: 60%;
+
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+z-index: 4;
+
+
+}
+
+#mainbtnbox button{
+margin: 10px auto;
+padding:  15px ;
+width: 43vw;
+
+justify-content: center;
+align-items: center;
+
+
+font-family: 'segoe UI';
+font-weight: lighter;
+font-size: 16px;
+color: white;
+
+
+display: flex;
+background-color: rgba(12, 216, 243, 0.179) ;
+backdrop-filter: blur(5px);
+border-radius: 30px;
+border:0px;
+outline: none;
+}
+
+#mainbtnbox button:hover{ 
+
+background-color: rgba(11, 230, 241, 0.452) ;
+
+}
+
+
+.contentbox{
+margin: 150px 0px 20px;
+padding: 5px;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap; 
+}
+
+.addsCard{
+margin: 10px auto;
+padding: 0px;
+height: auto;
+width: auto;
+
+display: flex;
+}
+
+.addsCard img{
+margin: 0px;
+padding: 0px;
+height: 300px;
+width: 24vw;
+
+object-fit: cover;
+object-position: center;
+border-radius: 6px;
+}
+
+
+#calltoactionbox{
+margin: 26px 5px ;
+padding: 0px;
+
+height: auto;
+width: 100%;
+
+background-image: url(../photos/2005054.jpg);
+
+/* background-position: center; */
+background-size: cover; 
+}
+
+#calltoactionboxkground{
+margin: auto;
+padding: 15px;
+width: 100%;
+
+display: flex;
+flex-direction: row;
+backdrop-filter: blur(3px);
+background-color: rgba(86, 86, 183, 0.335);
+}
+
+#calltoactionbox .calltoaction{
+margin: auto;
+padding: 4px;
+
+height: 100px;
+width: 100px;
+
+display: flex;
+flex-direction: column;
+
+align-items: center;
+
+border-radius: 3px;
+background-color: rgba(255, 255, 255, 0.495);
+backdrop-filter: blur(7px);
+
+}
+
+.calltoaction p{
+margin: 0px;
+padding: 3px;
+
+font-size: 16px;
+font-family: 'segoe UI';
+font-weight: lighter;
+
+text-align: center;
+}
+
+
+#prompbox1{
+margin: 80px 0px;
+padding: 0px;
+width: 100%;
+height: 120px;
+
+
+background-image: url(https://d2gg9evh47fn9z.cloudfront.net/1600px_COLOURBOX7141781.jpg);
+background-position: center;
+background-size: cover;
+}
+
+
+.boxbackground{
+margin: 0px;
+padding: 0px;
+width: 100%;
+min-height: 100%;
+
+display: flex;
+backdrop-filter: blur(6px);
+background-color: rgba(11, 126, 203, 0.141);
+
+}
+
+
+#prompbox1 .boxbackground p{
+margin: auto;
+padding: 10px;
+
+font-size: 28px;
+/* font-weight: lighter; */
+font-family:'segoe UI';
+color: rgb(11, 3, 44); 
+display: flex;
+
+justify-self: center;
+}
+
+
+
+#promotbtnbox{
+margin: 20px 0px;
+padding: 20px;
+
+width: 100%;
+
+display: flex; 
+}
+
+.promotbtn{
+margin: auto;
+
+padding: 10px 5px 15px;
+width: 73vw;
+background-color: rgb(0, 8, 255);
+
+font-size: 21px;
+font-weight: lighter;
+font-family:'segoe UI';
+color: rgb(239, 215, 242);
+
+outline: none;
+border: 0px;
+
+border-radius: 6px;
+}
+
+
+
+
+
+
+
+}
+
+/* Desktop styling */
+@media (min-width: 1020px) {
+
+#mainbtnbox{
+margin: 0px;
+padding: 10px;
+
+width: 100%;
+position: absolute;
+top: 400px;
+
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+z-index: 4;
+
+
+}
+
+#mainbtnbox button{
+margin: auto 20px;
+padding:  15px ;
+
+width: 30vw;
+justify-content: center;
+align-items: center;
+
+font-family: 'segoe UI';
+font-weight: lighter;
+font-size: 16px;
+color: white; 
+background-color: rgba(12, 216, 243, 0.179) ;
+backdrop-filter: blur(5px);
+border-radius: 30px;
+border:0px;
+outline: none;
+}
+
+
+#mainbtnbox button:hover{ 
+
+background-color: rgba(11, 230, 241, 0.452) ;
+
+}
+
+
+}
+
+/* END OF DESKTOP STYLING */

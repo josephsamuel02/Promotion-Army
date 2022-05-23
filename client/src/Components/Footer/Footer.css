@@ -1,0 +1,28 @@
+
+#footer{
+    margin: 0px;
+    padding: 30px 10px;
+
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+    /* background-color: rgb(5, 56, 69); */
+}
+
+#footer h3{
+    margin: auto;
+    padding: 20px;
+
+    display: flex;
+    flex-wrap: wrap;
+  
+    font-family: 'segoe UI';
+    font-weight: lighter;
+    font-size: 16px;
+    color: rgb(188, 113, 221);
+ 
+}
