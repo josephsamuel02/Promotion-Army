@@ -14,7 +14,7 @@ const Dashboard = () => {
     const [displaybox, setDisplaybox] = useState("whatsapp");
 
     return (
-        <div id="body">
+        <div id="dbody">
             <IconContext.Provider
                 value={{
                     size: 23,

@@ -7,6 +7,7 @@ import {
     IoLogoTwitter,
     IoLogoYoutube,
 } from "react-icons/io";
+import Footer from "../Footer/Footer";
 import { MdWeb } from "react-icons/md";
 import { SiBrandfolder } from "react-icons/si";
 
@@ -28,22 +29,22 @@ const Homepage = () => {
                     </Link>
                 </div>
 
-                <div className="contentbox">
+                <div className="homecontentbox">
                     <div className="addsCard">
                         <img
-                            src="images/pexels-polina-tankilevitch-8203158.jpg"
+                            src="https://res.cloudinary.com/promotion-army/image/upload/v1653299660/Promotion%20Army%20Images/pexels-polina-tankilevitch-8203158_vcwevz.jpg"
                             alt="microphone"
                         />
                     </div>
                     <div className="addsCard">
                         <img
-                            src="images/microphone-1209816_1920.jpg"
+                            src="https://res.cloudinary.com/promotion-army/image/upload/v1653299662/Promotion%20Army%20Images/pexels-polina-tankilevitch-8203156_pkzgef.jpg"
                             alt="microphone"
                         />
                     </div>
                     <div className="addsCard">
                         <img
-                            src="images/pexels-polina-tankilevitch-8203156.jpg"
+                            src="https://res.cloudinary.com/promotion-army/image/upload/v1653299680/Promotion%20Army%20Images/pexels-andrea-piacquadio-3760809_fintej.jpg"
                             alt="microphone"
                         />
                     </div>
@@ -59,7 +60,7 @@ const Homepage = () => {
                     <div id="calltoactionboxkground">
                         <div className="calltoaction">
                             <p>Promot Your Business </p>
-                            <SiBrandfolder size={40} color="rgb(196, 9, 225)" />
+                            <SiBrandfolder size={40} color="rgb(0, 106, 255)" />
                         </div>
                         <div className="calltoaction">
                             <p>Lets Drive Trafic to Your Business Website</p>
@@ -73,11 +74,11 @@ const Homepage = () => {
                             />
                         </div>
                         <div className="calltoaction">
-                            <p>100+ YouTub</p>
+                            <p>Get 100+ YouTub Subscribers in One Day</p>
                             <IoLogoYoutube size={40} color="red" />
                         </div>
                         <div className="calltoaction">
-                            <p>Promot Your Facebook Chanell</p>
+                            <p>Promot Your Facebook Page</p>
                             <IoLogoFacebook size={40} color="blue" />
                         </div>
                     </div>
@@ -100,7 +101,7 @@ const Homepage = () => {
                     </div>
                 </div>
 
-                <div className="contentbox">
+                <div className="homecontentbox">
                     <div className="addsCard">
                         <img
                             src="https://res.cloudinary.com/promotion-army/image/upload/v1653320533/Promotion%20Army%20Images/pexels-reafon-gates-1498332_ipkydn.jpg"
@@ -112,6 +113,14 @@ const Homepage = () => {
                             src="https://res.cloudinary.com/promotion-army/image/upload/v1653299671/Promotion%20Army%20Images/pexels-monstera-9429449_t4yzkg.jpg"
                             alt="microphone"
                         />
+                    </div>
+
+                    <div className="prompbox">
+                        <div className="boxbackground">
+                            <p>
+                                Open an Influencer Account and Keep making Money
+                            </p>
+                        </div>
                     </div>
 
                     <div className="addsCard">

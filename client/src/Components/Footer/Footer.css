@@ -1,16 +1,22 @@
 
 #footer{
     margin: 0px;
-    padding: 30px 10px;
+    padding: 10px;
+
+/* position: relative;
+bottom: 0px;
+left: 0px;
+right: 0px; */
 
     max-width: 100%;
-    height: auto;
+    height: 200px;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
 
-    /* background-color: rgb(5, 56, 69); */
+    background-color: rgb(4, 31, 66);
+    z-index: 7;
 }
 
 #footer h3{
@@ -23,6 +29,6 @@
     font-family: 'segoe UI';
     font-weight: lighter;
     font-size: 16px;
-    color: rgb(188, 113, 221);
- 
+    color: rgb(237, 237, 243);
 }
+
