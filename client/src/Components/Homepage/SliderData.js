@@ -1,18 +1,18 @@
 export const SliderData = [
     {
-        image: "https://i.ibb.co/58Mq6Mb/slide1.jpg",
+        image: "https://res.cloudinary.com/promotion-army/image/upload/v1653299660/Promotion%20Army%20Images/pexels-polina-tankilevitch-8203158_vcwevz.jpg",
         heading: "Slide One",
-        desc: "Lorem ipsum dolor sit amet,lorem ipsum dolor sit amet orem ipsum dolor sit amet",
+        desc: "Lets Announce Your Business to the Internet",
     },
     {
-        image: "https://i.ibb.co/8gwwd4Q/slide2.jpg",
+        image: "https://res.cloudinary.com/promotion-army/image/upload/v1653299662/Promotion%20Army%20Images/pexels-polina-tankilevitch-8203156_pkzgef.jpg",
         heading: "Slide Two",
-        desc: "Lorem ipsum dolor sit amet,lorem ipsum dolor sit amet orem ipsum dolor sit amet",
+        desc: "Make Some Noise for yor Business",
     },
     {
-        image: "https://i.ibb.co/8r7WYJh/slide3.jpg",
+        image: "https://res.cloudinary.com/promotion-army/image/upload/v1653299680/Promotion%20Army%20Images/pexels-andrea-piacquadio-3760809_fintej.jpg",
         heading: "Slide Three",
-        desc: "Lorem ipsum dolor sit amet,lorem ipsum dolor sit amet orem ipsum dolor sit amet",
+        desc: "Watch your Business Grow at Incredible Speed",
     },
 ];
 

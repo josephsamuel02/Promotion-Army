@@ -3,12 +3,13 @@ import "./HomePostersSlide.css";
 import React, { useState, useEffect } from "react";
 import { IoCaretBack, IoCaretForward } from "react-icons/io5";
 import { SliderData, promoAddsData } from "./SliderData";
+
 const HomePostersSlide = () => {
     const [currentSlide, SetCurrentSlide] = useState(0);
     const slideLenght = SliderData.length;
     const autoscroll = true;
     let slideInterval;
-    let intervalTime = 5000;
+    let intervalTime = 8000;
 
     useEffect(() => {
         SetCurrentSlide(0);
@@ -39,10 +40,10 @@ const HomePostersSlide = () => {
     return (
         <div id="homepostersslide">
             <h3 className="arrow arrowleft" onClick={prevSlide}>
-                <IoCaretBack size={48} color="rgba(157, 157, 162, 0.506)" />
+                <IoCaretBack size={38} color="rgba(6, 158, 158, 0.131)" />
             </h3>
             <h3 className="arrow arrowright" onClick={nextslide}>
-                <IoCaretForward size={48} color="rgba(157, 157, 162, 0.506)" />
+                <IoCaretForward size={38} color="rgba(6, 158, 158, 0.131)" />
             </h3>
 
             {SliderData.map((slide, index) => {
@@ -57,7 +58,7 @@ const HomePostersSlide = () => {
                             <>
                                 <img src={slide.image} alt="poster" />
                                 <div className="content">
-                                    <h2>{slide.heading}</h2>
+                                    {/* <h2>{slide.heading}</h2> */}
                                     <p>{slide.desc}</p>
                                     <hr />
                                     <button>Get Started</button>

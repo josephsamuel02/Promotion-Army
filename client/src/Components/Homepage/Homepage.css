@@ -1,5 +1,5 @@
 
-
+/* color: rgb(0, 106, 255) */
 
 /* Mobile view */
 @media (max-width: 543px) {
@@ -8,26 +8,34 @@
 #homepagebody{
 margin: 0px;
 padding: 0px;
-min-height: 100%;
+height: 100%;
+width: 100%;
+background-image: url(https://res.cloudinary.com/promotion-army/image/upload/e_blur:1472,q_23,r_0/v1653299650/Promotion%20Army%20Images/2005054_shzgip.jpg);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+}
 
-background-color: rgba(15, 144, 180, 0.669);
+#homepagebox{
+margin: 619px 0px 0px 0px;
+padding: 150px 0px 0px;
+
 }
 
 
 #mainbtnbox{
-margin: 0px;
-padding:  20px 0px 10px;
+margin: 10px 0px;
+padding:  5px 0px ;
 height: 200px;
 width: 100%;
-position: absolute;
-top: 60%;
+
 
 display: flex;
 flex-direction: column;
 flex-wrap: wrap;
 justify-content: center;
 align-items: center;
-z-index: 4;
+z-index: 4; 
 
 
 }
@@ -35,7 +43,7 @@ z-index: 4;
 #mainbtnbox button{
 margin: 10px auto;
 padding:  15px ;
-width: 43vw;
+width: 56vw;
 
 justify-content: center;
 align-items: center;
@@ -43,35 +51,37 @@ align-items: center;
 
 font-family: 'segoe UI';
 font-weight: lighter;
-font-size: 16px;
+font-size: 17px;
 color: white;
 
 
 display: flex;
-background-color: rgba(12, 216, 243, 0.179) ;
+background-color: rgb(0, 106, 255) ;
 backdrop-filter: blur(5px);
-border-radius: 30px;
+border-radius: 4px;
 border:0px;
 outline: none;
 }
 
 #mainbtnbox button:hover{ 
 
-background-color: rgba(11, 230, 241, 0.452) ;
+background-color: rgba(12, 105, 204, 0.955) ;
 
 }
 
 
 .contentbox{
-margin: 140px 0px 20px;
-padding: 5px;
+margin: 5px 0px 0px;
+padding: 50px 2px 5px;
 display: flex;
 flex-direction: row;
 flex-wrap: wrap; 
+
+/* background-color: white; */
 }
 
 .addsCard{
-margin: 10px auto;
+margin: 50px auto;
 padding: 0px;
 height: auto;
 width: auto;
@@ -82,23 +92,64 @@ display: flex;
 .addsCard img{
 margin: 0px;
 padding: 0px;
-height: 430px;
-width: 330px;
+height: 450px;
+width: 95vw;
 
 object-fit: cover;
 object-position: center;
-border-radius: 6px;
+border-radius: 3px;
 }
 
 
+.prompbox{
+margin: 80px 0px;
+padding: 0px;
+width: 100%;
+height: 120px;
+
+
+background-image: 
+url(https://res.cloudinary.com/promotion-army/image/upload/e_blur:1524,q_22/v1653299652/Promotion%20Army%20Images/1600px_COLOURBOX6730027_tdasn8.jpg);
+background-position: center;
+}
+
+
+.boxbackground{
+margin: 0px;
+padding: 0px;
+width: 100%;
+min-height: 100%;
+
+display: flex; 
+background-color: rgba(2, 19, 105, 0.435);
+
+}
+
+
+.prompbox .boxbackground p{
+margin: auto;
+padding: 5px;
+
+font-size: 26px;
+font-weight: lighter;
+font-family:'segoe UI';
+color: rgba(234, 245, 247, 0.972); 
+text-align: center;
+display: flex;
+
+justify-self: center;
+} 
+
+
+
 #calltoactionbox{
-margin: 26px 0px ;
+margin: 0px  ;
 padding: 0px;
 
-height: 75vh;
+height: auto;
 width: 100%;
 
-background-image: url(../photos/2005054.jpg);
+background-image: url( https://res.cloudinary.com/promotion-army/image/upload/v1653376765/Promotion%20Army%20Images/clay-banks-POzx_amnWJw-unsplash_wh2wr6.jpg);
 
 background-position: center;
 background-size: cover; 
@@ -117,15 +168,14 @@ flex-wrap: wrap;
 align-items: center;
 justify-content: center;
 
-backdrop-filter: blur(8px);
-background-color: rgba(53, 71, 150, 0.478);
+backdrop-filter: blur(0px);
 }
 
 #calltoactionbox .calltoaction{
 margin: 7px auto ;
 padding: 4px;
 
-height: 160px;
+height: 150px;
 width: 120px;
 
 display: flex;
@@ -134,8 +184,8 @@ flex-direction: column;
 align-items: center;
 justify-content: center;
 border-radius: 3px;
-background-color: rgba(255, 255, 255, 0.432);
-backdrop-filter: blur(7px);
+background-color: rgba(21, 61, 66, 0.426);
+backdrop-filter: blur(3px);
 
 }
 
@@ -143,52 +193,15 @@ backdrop-filter: blur(7px);
 margin: 0px;
 padding: 10px 1px 8px;
 
-font-size: 16px;
+font-size: 18px;
 font-family: 'segoe UI';
-/* font-weight: lighter;*/
+/* font-weight: lighter; */
+color: white;
 line-height: 25px;
 text-align: center;
 }
 
 
-#prompbox1{
-margin: 80px 0px;
-padding: 0px;
-width: 100%;
-height: 120px;
-
-
-background-image: url(https://d2gg9evh47fn9z.cloudfront.net/1600px_COLOURBOX7141781.jpg);
-background-position: center;
-background-size: cover;
-}
-
-
-.boxbackground{
-margin: 0px;
-padding: 0px;
-width: 100%;
-min-height: 100%;
-
-display: flex;
-backdrop-filter: blur(6px);
-background-color: rgba(11, 126, 203, 0.141);
-
-}
-
-
-#prompbox1 .boxbackground p{
-margin: auto;
-padding: 10px;
-
-font-size: 28px;
-/* font-weight: lighter; */
-font-family:'segoe UI';
-color: rgb(11, 3, 44); 
-display: flex;
-
-justify-self: center;
-}
 
 #promotbtnbox{
 margin: 20px 0px;
@@ -204,7 +217,7 @@ margin: auto;
 
 padding: 10px 5px 15px;
 width: 73vw;
-background-color: rgb(0, 8, 255);
+background-color: rgb(0, 106, 255);
 
 font-size: 21px;
 font-weight: lighter;
@@ -214,10 +227,14 @@ color: rgb(239, 215, 242);
 outline: none;
 border: 0px;
 
-border-radius: 6px;
+border-radius: 3px;
 }
 
+.promotbtn:hover{ 
 
+background-color: rgba(12, 105, 204, 0.955) ;
+
+}
 
 }
 /* END OF MOBILE STYLING */
@@ -228,25 +245,35 @@ border-radius: 6px;
 #homepagebody{
 margin: 0px;
 padding: 0px;
-background-color: rgb(68, 44, 220);
-min-height: 100%;
+height: 100%;
+width: 100%;
+background-image: url(https://res.cloudinary.com/promotion-army/image/upload/e_blur:1472,q_23,r_0/v1653299650/Promotion%20Army%20Images/2005054_shzgip.jpg);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;  
+}
+
+#homepagebox{
+margin: 619px 0px 0px 0px;
+padding: 600px 0px 0px;
 
 }
 
+
 #mainbtnbox{
-margin: 0px;
-padding:  20px 0px 10px;
+margin: 0px 0px;
+padding:  5px 0px ;
 height: 200px;
 width: 100%;
-position: absolute;
-top: 60%;
+
 
 display: flex;
 flex-direction: column;
 flex-wrap: wrap;
 justify-content: center;
 align-items: center;
-z-index: 4;
+
+z-index: 4; 
 
 
 }
@@ -254,7 +281,7 @@ z-index: 4;
 #mainbtnbox button{
 margin: 10px auto;
 padding:  15px ;
-width: 43vw;
+width: 56vw;
 
 justify-content: center;
 align-items: center;
@@ -262,118 +289,68 @@ align-items: center;
 
 font-family: 'segoe UI';
 font-weight: lighter;
-font-size: 16px;
+font-size: 17px;
 color: white;
 
 
 display: flex;
-background-color: rgba(12, 216, 243, 0.179) ;
+background-color: rgb(0, 106, 255) ;
 backdrop-filter: blur(5px);
-border-radius: 30px;
+border-radius: 4px;
 border:0px;
 outline: none;
 }
 
 #mainbtnbox button:hover{ 
 
-background-color: rgba(11, 230, 241, 0.452) ;
+background-color: rgba(12, 105, 204, 0.955) ;
 
 }
 
 
 .contentbox{
-margin: 150px 0px 20px;
-padding: 5px;
+margin: 5px 0px 0px;
+padding: 50px 2px 5px;
 display: flex;
 flex-direction: row;
 flex-wrap: wrap; 
+
+
 }
 
 .addsCard{
-margin: 10px auto;
+margin: 50px auto;
 padding: 0px;
-height: auto;
-width: auto;
+
+width: 77vw;
+height: 850px;
 
 display: flex;
+
 }
 
 .addsCard img{
 margin: 0px;
 padding: 0px;
-height: 300px;
-width: 24vw;
+height: 100%;
+width: 100%;
 
 object-fit: cover;
 object-position: center;
-border-radius: 6px;
+border-radius: 12px;
 }
 
 
-#calltoactionbox{
-margin: 26px 5px ;
-padding: 0px;
-
-height: auto;
-width: 100%;
-
-background-image: url(../photos/2005054.jpg);
-
-/* background-position: center; */
-background-size: cover; 
-}
-
-#calltoactionboxkground{
-margin: auto;
-padding: 15px;
-width: 100%;
-
-display: flex;
-flex-direction: row;
-backdrop-filter: blur(3px);
-background-color: rgba(86, 86, 183, 0.335);
-}
-
-#calltoactionbox .calltoaction{
-margin: auto;
-padding: 4px;
-
-height: 100px;
-width: 100px;
-
-display: flex;
-flex-direction: column;
-
-align-items: center;
-
-border-radius: 3px;
-background-color: rgba(255, 255, 255, 0.495);
-backdrop-filter: blur(7px);
-
-}
-
-.calltoaction p{
-margin: 0px;
-padding: 3px;
-
-font-size: 16px;
-font-family: 'segoe UI';
-font-weight: lighter;
-
-text-align: center;
-}
-
-
-#prompbox1{
+.prompbox{
 margin: 80px 0px;
 padding: 0px;
 width: 100%;
 height: 120px;
 
 
-background-image: url(https://d2gg9evh47fn9z.cloudfront.net/1600px_COLOURBOX7141781.jpg);
+background-image: 
+url(https://res.cloudinary.com/promotion-army/image/upload/e_blur:1524,q_22/v1653299652/Promotion%20Army%20Images/1600px_COLOURBOX6730027_tdasn8.jpg);
 background-position: center;
-background-size: cover;
 }
 
 
@@ -384,23 +361,88 @@ width: 100%;
 min-height: 100%;
 
 display: flex;
-backdrop-filter: blur(6px);
-background-color: rgba(11, 126, 203, 0.141);
+
+background-color: rgba(29, 50, 165, 0.277);
 
 }
 
 
-#prompbox1 .boxbackground p{
+.prompbox .boxbackground p{
 margin: auto;
-padding: 10px;
+padding: 5px;
 
-font-size: 28px;
-/* font-weight: lighter; */
+font-size: 33px;
+font-weight: lighter;
 font-family:'segoe UI';
-color: rgb(11, 3, 44); 
+color: white; 
+text-align: center;
 display: flex;
 
 justify-self: center;
+} 
+
+
+
+#calltoactionbox{
+margin: 0px  ;
+padding: 30px 0px;
+
+height: auto;
+width: 100%;
+
+background-image: url( https://res.cloudinary.com/promotion-army/image/upload/v1653376765/Promotion%20Army%20Images/clay-banks-POzx_amnWJw-unsplash_wh2wr6.jpg);
+
+background-position: center;
+background-size: cover; 
+}
+
+#calltoactionboxkground{
+margin: auto;
+padding: 5px;
+max-width: 100vw;
+height: 100%;
+
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+
+align-items: center;
+justify-content: center;
+
+backdrop-filter: blur(0px);
+
+}
+
+#calltoactionbox .calltoaction{
+margin: 7px auto ;
+padding: 4px;
+
+height: 290px;
+width: 230px;
+
+display: flex;
+flex-direction: column;
+
+align-items: center;
+justify-content: center;
+border-radius: 3px;
+background-color: rgba(21, 61, 66, 0.426);
+backdrop-filter: blur(3px);
+
+}
+
+.calltoaction p{
+margin: 0px;
+padding: 20px 1px;
+
+font-size: 30px;
+font-family: 'segoe UI';
+font-weight: lighter;
+line-height: 50px;
+word-spacing: 6px;
+color: white;
+line-height: 45px;
+text-align: center;
 }
 
 
@@ -419,7 +461,7 @@ margin: auto;
 
 padding: 10px 5px 15px;
 width: 73vw;
-background-color: rgb(0, 8, 255);
+background-color: rgb(0, 106, 255);
 
 font-size: 21px;
 font-weight: lighter;
@@ -429,11 +471,14 @@ color: rgb(239, 215, 242);
 outline: none;
 border: 0px;
 
-border-radius: 6px;
+border-radius: 3px;
 }
 
+.promotbtn:hover{ 
 
+background-color: rgba(12, 105, 204, 0.955) ;
 
+}
 
 
 
@@ -443,50 +488,243 @@ border-radius: 6px;
 /* Desktop styling */
 @media (min-width: 1020px) {
 
-#mainbtnbox{
+#homepagebody{
 margin: 0px;
-padding: 10px;
-
+padding: 0px;
+height: 100%;
 width: 100%;
-position: absolute;
-top: 400px;
+background-image: url(https://res.cloudinary.com/promotion-army/image/upload/e_blur:1472,q_23,r_0/v1653299650/Promotion%20Army%20Images/2005054_shzgip.jpg);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;  
+}
+
+#homepagebox{
+margin: 619px 0px 0px 0px;
+padding: 150px 0px 0px;
+
+}
+
+
+#mainbtnbox{
+margin: 0px 0px;
+padding:  5px 0px ;
+height: 200px;
+width: 100%;
+
 
 display: flex;
-flex-direction: row;
+flex-direction: column;
 flex-wrap: wrap;
 justify-content: center;
 align-items: center;
-z-index: 4;
+
+z-index: 4; 
 
 
 }
 
 #mainbtnbox button{
-margin: auto 20px;
+margin: 10px auto;
 padding:  15px ;
+width: 56vw;
 
-width: 30vw;
 justify-content: center;
 align-items: center;
 
+
 font-family: 'segoe UI';
 font-weight: lighter;
-font-size: 16px;
-color: white; 
-background-color: rgba(12, 216, 243, 0.179) ;
+font-size: 17px;
+color: white;
+
+
+display: flex;
+background-color: rgb(0, 106, 255) ;
 backdrop-filter: blur(5px);
-border-radius: 30px;
+border-radius: 4px;
 border:0px;
 outline: none;
 }
 
-
 #mainbtnbox button:hover{ 
 
-background-color: rgba(11, 230, 241, 0.452) ;
+background-color: rgba(12, 105, 204, 0.955) ;
 
 }
 
+
+.contentbox{
+margin: 5px 0px 0px;
+padding: 50px 2px 5px;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap; 
+
+
+}
+
+.addsCard{
+margin: 50px auto;
+padding: 0px;
+
+width: 300px;
+height: 450px;
+
+display: flex;
+
+}
+
+.addsCard img{
+margin: 0px;
+padding: 0px;
+height: 100%;
+width: 100%;
+
+object-fit: cover;
+object-position: center;
+border-radius: 3px;
+}
+
+
+.prompbox{
+margin: 80px 0px;
+padding: 0px;
+width: 100%;
+height: 160px;
+
+
+background-image: 
+url(https://res.cloudinary.com/promotion-army/image/upload/e_blur:1524,q_22/v1653299652/Promotion%20Army%20Images/1600px_COLOURBOX6730027_tdasn8.jpg);
+background-position: center;
+}
+
+
+.boxbackground{
+margin: 0px;
+padding: 0px;
+width: 100%;
+min-height: 100%;
+
+display: flex;
+
+background-color: rgba(29, 50, 165, 0.277);
+
+}
+
+
+.prompbox .boxbackground p{
+margin: auto;
+padding: 5px;
+
+font-size: 50px;
+font-weight: lighter;
+font-family:'segoe UI';
+color: white; 
+text-align: center;
+display: flex;
+
+justify-self: center;
+} 
+
+
+
+#calltoactionbox{
+margin: 0px  ;
+padding: 30px 0px;
+
+height: auto;
+width: 100%;
+
+background-image: url( https://res.cloudinary.com/promotion-army/image/upload/v1653376765/Promotion%20Army%20Images/clay-banks-POzx_amnWJw-unsplash_wh2wr6.jpg);
+
+background-position: center;
+background-size: cover; 
+}
+
+#calltoactionboxkground{
+margin: auto;
+padding: 5px;
+max-width: 100vw;
+height: 100%;
+
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+
+align-items: center;
+justify-content: center;
+
+backdrop-filter: blur(0px);
+
+}
+
+#calltoactionbox .calltoaction{
+margin: 7px auto ;
+padding: 4px;
+
+height: 290px;
+width: 230px;
+
+display: flex;
+flex-direction: column;
+
+align-items: center;
+justify-content: center;
+border-radius: 3px;
+background-color: rgba(21, 61, 66, 0.426);
+backdrop-filter: blur(3px);
+
+}
+
+.calltoaction p{
+margin: 0px;
+padding: 20px 1px;
+
+font-size: 30px;
+font-family: 'segoe UI';
+font-weight: lighter;
+line-height: 50px;
+word-spacing: 6px;
+color: white;
+line-height: 45px;
+text-align: center;
+}
+
+
+
+#promotbtnbox{
+margin: 20px 0px;
+padding: 20px;
+
+width: 100%;
+
+display: flex; 
+}
+
+.promotbtn{
+margin: auto;
+
+padding: 10px 5px 15px;
+width: 73vw;
+background-color: rgb(0, 106, 255);
+
+font-size: 21px;
+font-weight: lighter;
+font-family:'segoe UI';
+color: rgb(239, 215, 242);
+
+outline: none;
+border: 0px;
+
+border-radius: 3px;
+}
+
+.promotbtn:hover{ 
+
+background-color: rgba(12, 105, 204, 0.955) ;
+
+}
 
 }
 
